@@ -48,6 +48,7 @@ const Search = () => {
         console.log(response);
     }); 
 
+    ***********************************
     if (term && !results.length) {
       search();
     } else {
